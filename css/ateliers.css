@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'Mofijo';
+    src: url('chemin/vers/mofijo.woff2') format('woff2'),
+        url('chemin/vers/mofijo.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body,
+html {
+    font-family: 'Mofijo', sans-serif;
+    overflow-x: hidden;
+
+}
+
+
+.header {
+    background-image: url(../images/image8.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#icons {
+    cursor: pointer;
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.logo {
+    height: 5%;
+    width: 7%;
+    margin: 1em 2em;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.text {
+    width: 50%;
+    height: 400px;
+    color: #fff;
+    letter-spacing: 1em;
+    margin-left: 25%;
+
+}
+
+.title {
+    width: 100%;
+    height: 20vh;
+    background-color: #000000;
+    opacity: 0.7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1em;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/image9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.box {
+    width: 345px;
+    height: 550px;
+    background-color: #7F947D;
+    opacity: 0.7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box img {
+    width: 255px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(84, 82, 82);
+    margin: 4% 12%;
+    opacity: 1;
+}
+
+.box h4 {
+    margin-left: 50%;
+
+
+}
+
+.box p {
+    font-family: 'soulio unicode', sans-serif;
+    margin-left: 2%;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'soulio unicode', sans-serif;
+    letter-spacing: 4px;
+    background-color: #2B352A;
+    width: 40%;
+    height: 5%;
+    text-align: center;
+    margin: 0 26%;
+    border: 1px solid #000000;
+    border-radius: 8px;
+
+}
+
+.container2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/image11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    width: 30em;
+    height: 35em;
+    background-color: #7F947D;
+    opacity: 0.7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title1 {
+    background-color: #384437;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 0.5em;
+}
+
+.container2 p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'mofijo', sans-serif;
+}
+
+.container3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/image10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.both {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 1em;
+
+}
+
+.box2 {
+    width: 40em;
+    height: 35em;
+    background-color: #7F947D;
+    opacity: 0.7;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.input1 {
+    width: 16em;
+    height: 4em;
+    background-color: #CBCBCB;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 10px 5px 5px #000000;
+}
+
+
+
+.e-mail {
+    width: 39em;
+    height: 4em;
+    background-color: #CBCBCB;
+    border-radius: 0.5em;
+    border: none;
+    margin: 2em 4.5em;
+    box-shadow: 10px 5px 5px #000000;
+
+}
+
+.banner p {
+    color: #fff;
+    width: 40%;
+    font-size: 3em;
+    margin-left: 2em;
+    letter-spacing: 0.5em;
+}
+
+#btn {
+    width: 13em;
+    height: 4em;
+    background-color: #000000;
+    opacity: 0.7;
+    color: #fff;
+    font-family: 'mofijo', sans-serif;
+    letter-spacing: 0.7em;
+    border-radius: 0.5em;
+    float: right;
+    margin-right: 4.5em;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer h5 {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 2.5px;
+}
+
+
+
+footer ul {
+    list-style: none;
+
+
+
+}
+
+footer p {
+    color: #fff;
+}
+
+.redirection {
+    margin: 2em 0;
+}
+
+/* ************************************MEDIA QUERY************************************************* */
+@media (max-width:800px) {
+    #icons {
+        display: block;
+        color: #fff;
+    }
+
+    #icons::before {
+        content: "\2630";
+    }
+
+    .active #icons:before {
+        content: "\2715";
+    }
+
+    nav ul {
+        position: fixed;
+        left: -100%;
+        top: 8%;
+        flex-direction: column;
+        background: #3d3d3d;
+        opacity: 0.7;
+        width: 100%;
+        text-align: center;
+        transition: 0.25s;
+    }
+
+    nav.active ul {
+        left: 0;
+    }
+
+    nav li {
+        padding: 4px 0;
+
+
+    }
+
+    nav li:hover {
+        background: #6f896d;
+    }
+
+    .text {
+        font-size: 1em;
+        width: 100%;
+        margin: 0 0 ;
+    }
+  
+   
+
+    .container1 {
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .h5 {
+        font-size: 16px
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner p {
+        width: 100%;
+
+        font-size: 32px;
+    }
+
+    .h5 {
+        font-size: 16px
+    }
+}
