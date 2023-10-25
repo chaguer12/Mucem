@@ -310,16 +310,7 @@ footer p {
 
 /* ************************************MEDIA QUERY************************************************* */
 @media (max-width:800px) {
-    .box2 {
-        width: 20em;
-        height: 15em;
 
-    }
-
-    .input1 {
-        width: 10em;
-        height: 2em;
-    }
 
     #icons {
         display: block;
