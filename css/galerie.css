@@ -211,6 +211,10 @@ footer p {
     margin: 2em 0;
 }
 
+iframe {
+    frameborder: "0";
+}
+
 /* ************************************MEDIA QUERY************************************************* */
 @media (max-width:800px) {
     #icons {
