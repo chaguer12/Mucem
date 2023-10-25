@@ -56,7 +56,7 @@ li {
 }
 
 a {
-    
+
     text-decoration: none;
     color: #fff;
 }
@@ -310,6 +310,17 @@ footer p {
 
 /* ************************************MEDIA QUERY************************************************* */
 @media (max-width:800px) {
+    .box2 {
+        width: 20em;
+        height: 15em;
+
+    }
+
+    .input1 {
+        width: 10em;
+        height: 2em;
+    }
+
     #icons {
         display: block;
         color: #fff;
@@ -352,10 +363,10 @@ footer p {
     .text {
         font-size: 1em;
         width: 100%;
-        margin: 0 0 ;
+        margin: 0 0;
     }
-  
-   
+
+
 
     .container1 {
         height: 150vh;
